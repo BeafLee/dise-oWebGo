@@ -1,0 +1,23 @@
+header>h1 {
+    color: red;
+    border: 1px solid #000000;
+    font-family: Arial;
+}
+
+a + a  {
+    margin-left: 10%;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+}
+
+
+h2 {
+    background-color: blue;
+    color: white;
+}

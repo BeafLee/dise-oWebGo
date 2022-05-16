@@ -1,0 +1,43 @@
+#contenedor {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#titulo {
+    text-align: center;
+    line-height: 100px;
+    font-size: xx-large;
+    
+}
+
+#img1 {
+    float: left;
+}
+
+#img2 {
+    float: right;
+}
+
+fieldset {
+    background-color: beige;
+    margin-bottom: 10px;
+}
+
+label {
+    position: absolute;
+}
+#datos_personales select, #datos_personales input {
+    position: relative;
+    left: 70px;
+}
+
+form > input {
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
