@@ -1,0 +1,49 @@
+#contact div {
+    background-color: #fffffe;
+    border-radius: 10px;
+    margin: 2%;
+    padding-bottom: 1px;
+}
+
+form {
+    border-radius: 10px;
+    margin: 2%;
+    padding: 2%;
+    background-color: #b8c1ec;
+    
+}
+
+form label {
+    position: absolute;
+}
+
+.text {
+    margin-left: 70px;
+    width: 70%;
+}
+
+.btn {
+    margin-top: 5%;
+    margin-left: 13%;
+    width: 30%;
+}
+
+.area{
+    height: 50px;
+}
+#info {
+    padding-top: 10px;
+    padding-left: 5%;
+}
+
+@media (min-width: 950px) {
+    #contact {
+        display: grid;
+        grid-template-columns: 55% 45%;
+    }
+
+    #info {
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+}

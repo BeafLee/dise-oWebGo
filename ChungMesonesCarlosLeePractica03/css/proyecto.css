@@ -1,0 +1,32 @@
+#contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.proyecto{
+    border-radius: 10px;
+    background-color: #fffffe;
+    margin: 10px;
+}
+
+.proyecto img {
+    clear:both;
+    width: 50%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+}
+
+.proyecto input{
+    width: 80%;
+    margin-bottom: 5%;
+}
+
+@media (min-width: 600px) {
+    #contenedor {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    
+    }
+}

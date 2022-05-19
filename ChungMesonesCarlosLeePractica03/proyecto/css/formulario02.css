@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    
+}
+
+input {
+    margin-bottom: 10px;
+    
+}
+
+#correo, #pass {
+    padding-right: 184px;
+}
