@@ -1,7 +1,18 @@
+body {
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #f3d2c1;
+}
+
 header>h1 {
-    color: red;
-    border: 1px solid #000000;
+    color: #001858;
     font-family: Arial;
+}
+
+header div {
+    background-color: #fef6e4;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 a + a  {
@@ -10,6 +21,7 @@ a + a  {
 
 header a {
     text-decoration: none;
+    color: #001858;
 }
 
 header {
@@ -18,6 +30,16 @@ header {
 
 
 h2 {
-    background-color: blue;
-    color: white;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    background-color: #001858;
+    color: #fffffe;
+    border-radius: 5px;
+}
+
+.box {
+    background-color: #fef6e4;
+    border-radius: 10px;
+    padding: 10px;
 }

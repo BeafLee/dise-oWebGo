@@ -1,3 +1,7 @@
+body {
+    background-color: #d4d8f0;
+
+}
 #contenedor {
     margin-right: 5%;
     margin-left: 5%;
@@ -12,15 +16,19 @@
 
 #img1 {
     float: left;
+    border-radius: 10px;
 }
 
 #img2 {
     float: right;
+    border-radius: 10px;
 }
 
 fieldset {
-    background-color: beige;
+    background-color: #fffffe;
     margin-bottom: 10px;
+    border-radius: 10px;
+    color: #232946;
 }
 
 label {
@@ -33,7 +41,12 @@ label {
 
 form > input {
     margin-left: 30px;
+    background-color: #232946;
+    color: #fffffe;
+    border-radius: 10px;
+    padding: 10px;
 }
+
 
 
 

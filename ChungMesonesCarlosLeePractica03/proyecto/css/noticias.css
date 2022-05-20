@@ -34,12 +34,16 @@ div a {
 }
 
 #caja1{
-    background-color: white;  
+    background-color: white;
+    padding-left: 2%;  
+    padding-right: 2%;  
 }
 
 #caja2{
+    border-radius: 10px;
     height: 300px;
     float: right;
+    margin: 10px;
 }
 
 #caja3{
