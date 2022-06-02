@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/agendaV1.css">
+    <title>Inicio sesión</title>
+</head>
+<body>
+    <div class="datosEntrada">
+        <form action="">
+            <label for="nombre">Nombre:</label> 
+            <input type="text" name="nombre" id="nombre">
+            <label for="movil">Telefono:</label> 
+            <input type="text" name="movil" id="movil">
+            <button type="submit" onclick="guardarDatos()">Guardar datos</button>
+        </form>
+        <p id="datos">Pulsar para ver tu nombre y número de celular</p>
+        <button type="button" onclick="recuperarDatos()">Recupera datos</button>
+
+    </div>
+    <script src="js/agendaV1.js"></script>
+</body>
+</html>

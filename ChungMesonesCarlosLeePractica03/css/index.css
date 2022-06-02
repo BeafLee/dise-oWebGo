@@ -43,6 +43,7 @@ nav {
 
 nav a {
     border: 1px solid;
+    border-radius: 10px;
     padding: 1%;
     background-color: #eebbc3;
     color: #232946;
@@ -87,6 +88,7 @@ aside {
 
 aside>div {
     border: 1px solid;
+    border-radius: 10px;
     margin: 5%;
     padding: 3%;
     background-color: #fffffe;
